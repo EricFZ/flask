@@ -7,10 +7,10 @@ class Config:
     SECRET_KEY = 'haha'
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True  # 设置这一项是每次请求结束后都会自动提交数据库中的变动
     SQLALCHEMY_TRACK_MODIFICATIONS= True
-    MAIL_SERVER = 'smtp.163.com',
-    MAIL_PORT = 465,
-    MAIL_USE_SSL = True,
-    MAIL_USERNAME = 'wxmy419@163.com',
+    MAIL_SERVER = 'smtp.163.com'
+    MAIL_PORT = 465
+    MAIL_USE_SSL = True
+    MAIL_USERNAME = 'wxmy419@163.com'
     MAIL_PASSWORD = 'a123456'
     FLASKY_MAIL_SUBJECT_PREFIX = '[Flasky]'
     FLASKY_MAIL_SENDER = 'wxmy419@163.com'
